@@ -89,7 +89,7 @@ body{
     grid-template-columns: repeat(1, 1fr);
     gap: 15px;
     margin-top: 20px;
-}
+} 
 .block-1{
     background-color:rgb(245, 249, 252);
     padding: 16px 15px;
@@ -145,7 +145,7 @@ body{
 
 /* tablet responsive */
 
-@media screen and (min-width:577px) and (max-width: 999px) {
+@media screen and (min-width:577px) and (max-width: 980px) {
 .container{
         margin: 0 50px;
     }
