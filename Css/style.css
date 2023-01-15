@@ -118,7 +118,13 @@ body{
 .facts-section-content:hover > .facts-blok{
     background-color: #FF900E;
 }
-
+/* sponspors section */
+.sponspors-sec-content{
+    margin: 50px;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 25px;
+}
 /* tablet responsive */
 
 @media screen and (min-width:577px) and (max-width: 999px) {
@@ -189,7 +195,12 @@ body{
     grid-template-columns: repeat(2, 1fr);
     gap: 40px;
 }
-
+/* sponspors section */
+.sponspors-sec-content{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 45px;
+}
 }
 
 
@@ -265,5 +276,11 @@ body{
     display: grid;
     grid-template-columns: repeat(1, 1fr);
     gap:40px;
+}
+/* sponspors section */
+.sponspors-sec-content{
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 35px;
 }
 }
